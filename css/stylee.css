@@ -1,0 +1,89 @@
+
+body{
+
+ background: linear-gradient(119deg, rgba(230,181,190,1) 41%, rgba(182,197,243,0.9615196420365021) 69%);
+}
+
+.butt{
+  background: rgb(38,99,223);
+background: linear-gradient(69deg, rgba(38,99,223,1) 100%, rgba(117,143,240,1) 100%);
+}
+/* ************************ start first page ****************************** */
+.inner h1{
+   font-size: 3rem;
+   color: #2D2D2D;
+}
+.row{
+  background: #F5F7FF;
+}
+
+.inner p{
+ font-size: 1.5rem;
+}
+
+.inner {
+ width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+ 
+.inner {
+ text-align: center;
+ width: 100%;
+}
+ .inner h1{
+  font-size: 1.5rem;
+}
+
+.inner p{
+font-size: 1rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ .inner {
+
+  width: 100%;
+ }
+  .inner h1{
+   font-size: 2.5rem;
+ }
+ 
+ .inner p{
+ font-size: 1.2rem;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and (max-width: 992px)) */
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .inner {
+  text-align: center;
+  width: 100%;
+ }
+  .inner h1{
+   font-size: 3rem;
+ }
+ 
+ .inner p{
+ font-size: 1.5rem;
+ }
+} 
+
+/* ************************ end first page ****************************** */
+
+.register{
+  display: none;
+}
+
+.input-group-text i {
+  color:#9CADF2 ;
+
+}
+
+.logged{
+  display: none;
+
+}
